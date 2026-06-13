@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0"><class>Products</class><widget class="QMainWindow" name="Products">
+<property name="windowTitle"><string>Товары</string></property>
+<property name="minimumSize"><size><width>900</width><height>650</height></size></property>
+<widget class="QWidget" name="centralwidget"><layout class="QVBoxLayout" name="verticalLayout">
+<item><layout class="QHBoxLayout" name="topLayout">
+<item><widget class="QLabel" name="userLabel"><property name="text"><string>Пользователь</string></property></widget></item>
+<item><spacer name="horizontalSpacer"><property name="orientation"><enum>Qt::Orientation::Horizontal</enum></property><property name="sizeHint" stdset="0"><size><width>40</width><height>20</height></size></property></spacer></item>
+<item><widget class="QPushButton" name="exitButton"><property name="text"><string>Выйти</string></property></widget></item>
+</layout></item>
+<item><layout class="QHBoxLayout" name="filterLayout">
+<item><widget class="QLineEdit" name="searchEdit"><property name="placeholderText"><string>Поиск</string></property></widget></item>
+<item><widget class="QComboBox" name="supplierBox"/></item>
+<item><widget class="QComboBox" name="sortBox"/></item>
+<item><widget class="QPushButton" name="addButton"><property name="text"><string>Добавить товар</string></property></widget></item>
+<item><widget class="QPushButton" name="ordersButton"><property name="text"><string>Заказы</string></property></widget></item>
+</layout></item>
+<item><widget class="QLabel" name="countLabel"><property name="text"><string>Найдено товаров: 0</string></property></widget></item>
+<item><widget class="QScrollArea" name="scrollArea"><property name="widgetResizable"><bool>true</bool></property>
+<widget class="QWidget" name="scrollAreaWidgetContents"><layout class="QVBoxLayout" name="productsLayout"/></widget></widget></item>
+</layout></widget></widget><resources/><connections/></ui>

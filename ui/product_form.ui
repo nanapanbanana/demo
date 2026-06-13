@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0"><class>ProductForm</class><widget class="QDialog" name="ProductForm">
+<property name="windowTitle"><string>Товар</string></property><property name="minimumSize"><size><width>520</width><height>520</height></size></property>
+<layout class="QVBoxLayout" name="verticalLayout">
+<item><layout class="QFormLayout" name="formLayout">
+<item row="0" column="0"><widget class="QLabel" name="label"><property name="text"><string>Название</string></property></widget></item>
+<item row="0" column="1"><widget class="QLineEdit" name="nameEdit"/></item>
+<item row="1" column="0"><widget class="QLabel" name="label_2"><property name="text"><string>Категория</string></property></widget></item>
+<item row="1" column="1"><widget class="QComboBox" name="categoryBox"/></item>
+<item row="2" column="0"><widget class="QLabel" name="label_3"><property name="text"><string>Производитель</string></property></widget></item>
+<item row="2" column="1"><widget class="QComboBox" name="manufacturerBox"/></item>
+<item row="3" column="0"><widget class="QLabel" name="label_4"><property name="text"><string>Поставщик</string></property></widget></item>
+<item row="3" column="1"><widget class="QComboBox" name="supplierBox"/></item>
+<item row="4" column="0"><widget class="QLabel" name="label_5"><property name="text"><string>Цена</string></property></widget></item>
+<item row="4" column="1"><widget class="QDoubleSpinBox" name="priceSpin"><property name="maximum"><double>9999999.990000000223517</double></property></widget></item>
+<item row="5" column="0"><widget class="QLabel" name="label_6"><property name="text"><string>Остаток</string></property></widget></item>
+<item row="5" column="1"><widget class="QSpinBox" name="quantitySpin"><property name="maximum"><number>999999</number></property></widget></item>
+<item row="6" column="0"><widget class="QLabel" name="label_7"><property name="text"><string>Скидка %</string></property></widget></item>
+<item row="6" column="1"><widget class="QSpinBox" name="discountSpin"><property name="maximum"><number>100</number></property></widget></item>
+<item row="7" column="0"><widget class="QLabel" name="label_8"><property name="text"><string>Описание</string></property></widget></item>
+<item row="7" column="1"><widget class="QPlainTextEdit" name="descriptionEdit"/></item>
+</layout></item>
+<item><layout class="QHBoxLayout" name="imageLayout">
+<item><widget class="QPushButton" name="imageButton"><property name="text"><string>Выбрать изображение</string></property></widget></item>
+<item><widget class="QLabel" name="imageLabel"><property name="text"><string>Без изображения</string></property></widget></item>
+</layout></item>
+<item><layout class="QHBoxLayout" name="buttonLayout">
+<item><widget class="QPushButton" name="saveButton"><property name="text"><string>Сохранить</string></property></widget></item>
+<item><widget class="QPushButton" name="cancelButton"><property name="text"><string>Отмена</string></property></widget></item>
+</layout></item>
+</layout></widget><resources/><connections/></ui>
